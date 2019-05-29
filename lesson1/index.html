@@ -21,15 +21,15 @@
 <script>
 
   const changeColorComponent = (props) => {
-    return React.createElement('div', { className: 'rectangle', style: { 'backgroundColor': props.backgroundColor } });
+    return React.createElement('div', {className: 'rectangle', style: {'backgroundColor': props.backgroundColor}});
   };
 
   const baseComponent = () => {
     return React.createElement('div', null,
-      React.createElement(changeColorComponent, { backgroundColor: 'yellow' }),
-      React.createElement(changeColorComponent, { backgroundColor: 'red' }),
-      React.createElement(changeColorComponent, { backgroundColor: 'blue' }),
-      React.createElement(changeColorComponent, { backgroundColor: 'orange' })
+      React.createElement(changeColorComponent, {backgroundColor: 'yellow'}),
+      React.createElement(changeColorComponent, {backgroundColor: 'red'}),
+      React.createElement(changeColorComponent, {backgroundColor: 'blue'}),
+      React.createElement(changeColorComponent, {backgroundColor: 'orange'})
     );
   };
 
