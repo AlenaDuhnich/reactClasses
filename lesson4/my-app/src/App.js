@@ -35,7 +35,7 @@ const App = () => (
                 <Route path="/" exact component={Landing}/>
                 <Route path="/coins" component={Coins}/>
                 <Route path="/history" component={History}/>
-                <Route path="/history/:ID" component={History}/>
+                {/*<Route path="/history/:ID" component={History}/>*/}
                 <Route path="/news" component={News}/>
                 <Route component={ForOFor}/>
             </Switch>
