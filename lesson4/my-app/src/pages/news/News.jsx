@@ -1,8 +1,9 @@
 import React from 'react';
+import NewsList from '../../components/NewsList';
 
 const News = () => (
-    <div class="container">
-        <div class="m-4">No one news yet</div>
+    <div className="container mt-4">
+        <NewsList/>
     </div>
 );
 
