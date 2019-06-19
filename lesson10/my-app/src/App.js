@@ -69,7 +69,7 @@ class App extends Component {
                         <Route
                             path="/news/?id=:id"
                             component={props => (
-                                <NewSingle {...props} news={this.filterListById(newsList, props.match.params.id)} />
+                                <NewSingle {...props} news={this.filterNewsById(newsList, props.match.params.id)} />
                             )}
                         />
                         <Route component={ForOFor} />
