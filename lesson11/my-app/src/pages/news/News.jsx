@@ -40,7 +40,7 @@ class News extends Component {
                     </label>
                 </div>
                 <div className="row">
-                    <NewsList result={searchRes} />
+                    { <NewsList result={searchRes} />}
                 </div>
             </div>
         );

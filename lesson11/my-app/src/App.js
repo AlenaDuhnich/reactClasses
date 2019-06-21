@@ -67,7 +67,7 @@ class App extends Component {
                         />
                         <Route exact path="/news" component={props => <News {...props} newsList={newsList} />} />
                         <Route
-                            path="/single-news"
+                            path="/news/:id"
                             component={props => (
                                 <NewSingle {...props} news={this.filterNewsById(newsList, props.match.params.id)} />
                             )}
